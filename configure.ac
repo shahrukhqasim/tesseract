@@ -116,7 +116,7 @@ case "${host_os}" in
 esac
 
 ## Checks for supported compiler options.
-AM_CONDITIONAL([AVX_OPT], false)
+AM_CONDITIONAL([AVX_OPT], true)
 AM_CONDITIONAL([SSE41_OPT], false)
 
 # The current implementation for AVX uses 64 bit code.
